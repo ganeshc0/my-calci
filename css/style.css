@@ -1,0 +1,131 @@
+ .container{
+    display: flex;
+    flex-direction: row;
+ }
+ .btn{
+    width: 65px;
+    height: 65px; 
+    padding:8px;
+    margin: 3px;
+    margin-left:5px;
+    background-color:rgba(5, 3, 3, 0.888);
+    color: azure;
+    border-radius:5px ;
+    border-color: white;
+    font-size: 25px;
+ }
+ .op{
+     width: 65px;
+    height: 65px;
+    padding:8px; 
+    background-color: rgb(210, 227, 227);
+    border-radius: 5px; 
+    margin-left:5px; 
+    border-color: white; 
+    font-size: 30px;
+ }
+.checkbox{
+ border: 2px solid black;
+ padding:12px;
+ margin-left:3px;
+ text-align: right;
+ border-bottom:none;
+ background-color: rgba(219, 247, 230, 0.833);
+ font-size: 23px;
+ border-radius:5px 5px 0px 0px;
+}
+.calc{
+ border: 2px solid black;
+ width:310px;
+ height:480px;
+ padding: 3px;
+ border-radius: 10px;
+ background-color:rgba(20, 17, 17, 0.941) ;
+ box-shadow: 5px 5px 5px;
+ 
+}
+
+.equal{
+    width: 65px;
+    height: 65px; 
+    padding:8px;
+    margin: 3px;
+    margin-left:5px;
+    background-color:rgb(6, 161, 32);
+    border-radius:5px ;
+    border-color: white;
+    font-size: 25px;
+ }
+
+ .checkbox:focus{
+    outline: none;
+ }
+.checkbox1{
+    outline: none;
+}
+.checkbox1{
+ border: 2px solid black;
+ padding:12px;
+background-color: rgba(219, 247, 230, 0.833);
+ margin-left:3px;
+ text-align: right;
+ border-top: none;
+ font-size: 23px;
+ margin-bottom: 5px;
+ border-radius: 0px 0px 5px 5px;
+}
+.clere{
+    width: 65px;
+    height: 65px; 
+    padding:8px;
+    margin: 3px;
+    margin-left:5px;
+    background-color:rgb(234, 11, 11);
+    border-radius:5px ;
+    border-color: white;
+    font-size: 30px;
+    text-shadow:  2px 2px 5px black;
+}
+.back{
+   width: 80px;
+   height: 40px;
+   padding: 5px; 
+   border-radius: 5px; 
+   background-color: aquamarine;
+   border-color: aliceblue;
+   font-size: 20px;
+   text-shadow:  2px 2px 6px black;
+   font-size: 28px;
+}
+.history{
+    float:right; 
+    width: 65px;
+    height: 64px; 
+    padding:8px;
+    margin-right: 7px;
+    margin-top:2px;
+    background-color:rgb(178, 133, 230);
+    border-radius:5px ;
+    border-color: white;
+    font-size: 30px;
+    text-shadow:  2px 2px 5px black;   
+}
+.history-btn{
+    
+    border: 2px solid black;
+    width:270px;
+    height:420px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:rgba(20, 17, 17, 0.941) ;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px;
+  
+}
+.btn-remove{
+
+   height: 25px; 
+   width: 25px;
+   color:white;
+   font-size: 20px;
+}
