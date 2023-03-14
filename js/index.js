@@ -1,6 +1,9 @@
 var A= document.querySelector('.checkbox1');
 var B=document.querySelector('.checkbox');
 var historyDiv=document.querySelector('.history-div');
+var back =document.querySelector('.back2');
+
+
 var answers=[];
 var equations=[];
 function btn(val)
@@ -35,17 +38,22 @@ function backon()
 }
  function showHistory()
   { 
+    document.querySelector('.history-btn').style.visibility='visible';
+    
     historyDiv.innerHTML = "";
       for(let i=0;i<answers.length;i++)
      {
       historyDiv.innerHTML += '<div class="new"><h6>'+ equations[i] +' '+ answers[i]+'</h6></div>'  
      }
+     
   }
+
+/
 
 
 function reHistory()
 {
-  
+  document.querySelector('.history-btn').style.visibility='hidden';
   var status= confirm("Are You sure Want to delete Histort");
     if(status)
     {
@@ -53,6 +61,10 @@ function reHistory()
       answers = [];
       equations = [];
     }
-  
+    
 
+}
+function removeDiv()
+{
+  document.querySelector('.history-btn').style.visibility='hidden';
 }
