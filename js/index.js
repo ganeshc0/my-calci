@@ -48,7 +48,25 @@ function backon()
      
   }
 
-/
+//  function backSpace()
+//  {
+ 
+//   var str =back.innerHTML;
+//   var len = str.length;
+  
+//   var str =back.innerText;
+//   if(count==len-1)
+//   {
+//    back.innerText=0;
+  
+
+//   }
+//   else
+//   {
+//     back.innerText=str.slice(0,1);
+//   }
+ 
+//  } 
 
 
 function reHistory()
